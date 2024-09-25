@@ -1,0 +1,128 @@
+body.dark-mode {
+    background-color: aliceblue;
+    color: black;
+}
+
+body.dark-mode #blog_list {
+    background-color: aliceblue;
+}
+
+body.dark-mode #blog_list .blog .blog_title .date{
+    color: rgba(0, 0, 0, 0.75);
+}
+
+body.dark-mode .menu div a {
+    color: black;
+}
+
+body.dark-mode .menu div button{
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .menu div button:hover{
+    border-color: #5F85DB;
+}
+
+body.dark-mode .menu div button #moon{
+    display: block;
+}
+
+body.dark-mode .menu div button #sun{
+    display: none;
+}
+
+body.dark-mode .menu a.selected:before{
+    content: "";
+    position: absolute;
+    left: 7.5%;
+    bottom: -4px;
+    height: 3px;
+    width: 85%;
+    background-color: #000;
+    transition: width .25s ease-in-out;
+    border-radius: 15px;
+}
+
+.transition_dark{
+    animation: dark_mode_transition .7s ease-in-out;
+}
+
+@keyframes dark_mode_transition {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+    
+}
+
+body.dark-mode #blog_list .blog{
+    background-color: #fff;
+    /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode #blog_list .blog:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+body.dark-mode .footer{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .realfooter{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .contact a{
+    color: #000;
+    text-decoration: none;
+}
+
+body.dark-mode .contact a img{
+    filter: none;
+}
+
+body.dark-mode .only_pc.activate{
+    background-color: rgb(214, 214, 214);
+}
+
+body.dark-mode #closeBtn span{
+    background-color: black !important;
+}
+
+body.dark-mode .only_pc.activate a{
+    border: 1px solid black;
+}
+
+body.dark-mode .only_pc.activate a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .burger-icon span{
+    background-color: black;
+}
+
+body.dark-mode .projet img{
+    border: 1px solid gray;
+}
+
+body.dark-mode .projet{
+    border: 1px solid gray;
+}
+
+body.dark-mode .me .stats .bar{
+    background-color: gray;
+    filter: brightness(1.5);
+}
+
+body.dark-mode .me .stats .bar span{
+    color: white;
+}
+
+body.dark-mode #gitbanner{
+    filter: invert(0);
+}

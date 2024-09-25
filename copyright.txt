@@ -1,0 +1,5 @@
+<a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/moon" title="moon icons">Moon icons created by iconixar - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Dave Gandy - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/discord" title="discord icons">Discord icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Dave Gandy - Flaticon</a>

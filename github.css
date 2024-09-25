@@ -1,0 +1,18 @@
+#gitbanner{
+    width: 100%;
+    max-width: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    filter: invert(1);
+    margin-top: 75px;
+}
+
+#githubdesc{
+    display: inline-block;
+    max-width: 70%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    font-size: 22px;
+}

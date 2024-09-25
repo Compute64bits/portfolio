@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8038eb6de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="white.css">
+    <link rel="stylesheet" href="dark.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Erwan_srt</title>
+</head>
+<body style="height: 100%; overflow-x: hidden;">
+    <div class="menu">
+        <span id="logo" onclick="window.location.href='index.html';">@Erwan_srt/</span>
+        <div class="only_pc">
+            <a href="index.html#accueil" class="selected">Accueil</a>
+            <a href="index.html#me">À propos</a>
+            <a href="index.html#projects">Projets</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="github.html">Github</a>
+            <button id="dark_mode">
+                <img src="img/sun.png" alt="sun" id="sun">
+                <img src="img/moon.png" alt="moon" id="moon">
+            </button>
+        </div>
+        <a id="openBtn" style="cursor:pointer;">
+            <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
+        <a id="closeBtn" style="cursor:pointer;">
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+    <header>
+        <span class="hey">Hey! <span class="emoji">👋</span></span>
+        <span class="text">Je suis <span>Erwan_srt</span>, un jeune développeur passioné par l'informatique. 👨‍💻🌍</span>
+        <button onclick="window.location.href='#me'"><span class="down_arrow"></span></button>
+    </header>
+
+    <h2 id="me">À propos de moi...</h2>
+    <div class="me">
+        <span>Passioné depuis tous petit par l'informatique, j'ai commencé le développement à l'âge de ~10 ans en débutant par les commandes blocs sur le jeu nomée Minecraft. Puis du Java pour développer des mods/plugins sur se même jeu. Par la suite j'ai pratiquer l'HTML/CSS/JS pour crée de nombreux sites (site promotionnel, portfolio, ...). Actuellement je sais développer en Python, NodeJS, HTML/CSS/JS. Je peux m'adapter facilement à de nouveau language et suis prêt à développer vos idées! </span>
+        <div class="stats">
+            <p>Développeur Python/NodeJS</p>
+            <div class="bar"><span style="min-width: 90%; background-color: #347928;">90%</span></div>
+            <p>Développeur WEB</p>
+            <div class="bar"><span style="min-width: 80%; background-color: #347928;">80%</span></div>
+            <p>Web Design</p>
+            <div class="bar"><span style="min-width: 40%; background-color: #FF6600;">40%</span></div>
+        </div>
+    </div>
+
+    <h2 id="projects">Dernières activitées...</h2>
+    <div class="projets">
+
+        <div class="projet">
+            <img src="img/GitHub-banner.png" alt="portfolio screenshot">
+            <div class="content">
+                <p class="title">▶︎ Github, c'est quoi ?</p>
+                <span class="date">(25/09/24)</span>
+                <span>Vous avez déja peut être entendu parlé de github, mais savez vous réelement à quoi sa sert et se que c'est ? (explication d'une technologie particulière)</span>
+                <button onclick="window.location.href='github.html';">En savoir plus →</button>
+            </div>
+        </div>
+
+        <div class="projet">
+            <img src="img/screen-sharing.jpg" alt="portfolio screenshot">
+            <div class="content">
+                <p class="title">▶︎ Controler votre ordinateur à distance !</p>
+                <span class="date">(25/09/24)</span>
+                <span>
+                    J'ai développer un programme à l'aide du language python, permettant de controler un ordinateur, executant le programme, à distance depuis un navigateur web.
+                    Ce projet n'est malheuresement plus maintenant car le language python et les technologie utilisé n'étaient pas les plus optimal se qui rendaient le tous assez lent (~10fps).
+                </span>
+                <button onclick="window.location.href='https://github.com/Compute64bits/LoControl';">Voir le code →</button>
+            </div>
+        </div>
+
+        <div class="projet">
+            <img src="img/portfolio.png" alt="portfolio screenshot">
+            <div class="content">
+                <p class="title">▶︎ Mon nouveau portfolio !</p>
+                <span class="date">(25/09/24)</span>
+                <span>Dans le but d'un projet scolaire, j'ai crée se magnifique portfolio en pure css native. Ce projet ma permis d'approfondir mes compétences en web disign et surtout de m'amumser !</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+        <h3>Contact...</h3>
+        <a href="https://github.com/Compute64bits" target="_blank"><img src="img/github.png" alt="github"> Loyerss</a>
+        <a href="#" onclick="navigator.clipboard.writeText('72g'); alert('Pseudo copié dans la press à papier !')"><img src="img/discord.png" alt="discord"> @72g</a>
+    </div>
+
+    <div class="footer">
+        <span class="text">© 2024 - Erwan_srt</span>
+        <span class="authors">
+            Icon crée par 
+            <a href="https://www.flaticon.com/authors/dave-gandy">Dave Gandy</a>, 
+            <a href="https://www.flaticon.com/authors/iconixar">Iconixar</a>,
+            <a href="https://www.flaticon.com/authors/freepik">Freepik</a>.
+        </span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
