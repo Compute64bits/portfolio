@@ -92,4 +92,13 @@
     #closeBtn span:last-of-type{ transform: rotate(-45deg) translateY(-10px) translateX(7px);}
 
     .menu .only_pc.activate button{ display: none;  }
+
+    .footer{
+        position: relative !important;
+        bottom: auto !important;
+    }
+
+    #githubdesc{
+        max-width: 90% !important;
+    }
 }
