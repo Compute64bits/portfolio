@@ -93,11 +93,6 @@
 
     .menu .only_pc.activate button{ display: none;  }
 
-    .footer{
-        position: relative !important;
-        bottom: auto !important;
-    }
-
     #githubdesc{
         max-width: 90% !important;
     }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8038eb6de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/white.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/article.css">
+    <title>Erwan_srt</title>
+</head>
+<body style="height: 100%; overflow-x: hidden;">
+    <div class="menu">
+        <span id="logo" onclick="window.location.href='index.html';">@Erwan_srt/Arduino</span>
+        <div class="only_pc">
+            <a href="index.html#accueil">Accueil</a>
+            <a href="index.html#me">À propos</a>
+            <a href="index.html#projects">Projets</a>
+            <a href="index.html#contact">Contact</a>
+            <button id="dark_mode">
+                <img src="img/sun.png" alt="sun" id="sun">
+                <img src="img/moon.png" alt="moon" id="moon">
+            </button>
+        </div>
+        <a href="#" id="openBtn">
+            <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
+        <a href="#" id="closeBtn">
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+    <!--
+        Les points qui doivent être abordée :
+        - Le logiciel Arduino et le language arduino
+        - Pourquoi est-ce intéressant
+        - Comment fonctionne les interruptions
+        - Comment fonctionne le moniteur série
+    -->
+
+    <!-- <img class="article-banner" src="img/arduino.png" alt="github banner">
+
+    <h1 class="article-title">Arduino, c'est quoi ?</h1>
+    <span class="article-desc">
+        Arduino permet de faire des prototypages multiples.
+    </span>
+
+    <h3 class="article-subtitle">Ça vient d'où ?</h3>
+    <span class="article-desc">
+        Le projet Arduino est un projet open-source qui a été fondé par une association <br>
+        Le nom Arduino vient d'un bar d'Ivrea, en Italie, où se réunissaient certains des fondateurs du projet. Ce lieu était un point de rencontre pour les ingénieurs et les créateurs de l'époque. Arduino a vu le jour en 2005 et a révolutionné le domaine de la programmation et de l'électronique, en rendant la création de projets interactifs plus accessible à tout le monde.
+    </span>
+
+    <h3 class="article-subtitle">Comment ça s'utilise ?</h3>
+    <span class="article-desc">
+        Arduino est une carte électronique qui peut être programmée pour effectuer des tâches variées. Elle est utilisée dans des projets comme des robots, des objets connectés, des systèmes de domotique, et bien plus encore. Pour programmer la carte, on utilise le langage de programmation Arduino, qui est une version simplifiée du C++.
+        <br><br>
+        Voici un exemple de code simple qui fait clignoter une LED connectée à la carte Arduino :
+    </span>
+    <img src="img/code-arduino.png" alt="Exemple de code Arduino" class="article-banner">
+    <span class="article-desc">
+        Comme on le voit dans l'exemple ci-dessus, il suffit d'écrire une série de commandes dans l'IDE Arduino (l'environnement de développement) pour programmer le comportement de la carte. Dans cet exemple, la LED s'allume pendant une seconde, puis s'éteint pendant une seconde, et ainsi de suite.
+        <br><br>
+        Et voici le cablage associé :
+    </span>
+    <img src="img/arduino-cablage.png" alt="" class="article-banner">
+    
+
+    <h3 class="article-subtitle">Pourquoi c'est intéressant ?</h3>
+    <span class="article-desc">
+        L'une des raisons pour lesquelles Arduino est si populaire, c'est sa simplicité d'utilisation. Il est possible de créer des prototypes rapidement sans avoir besoin de compétences avancées en électronique. De plus, la communauté d'utilisateurs est très active et partage constamment des projets et des idées. Cela permet aux débutants comme aux experts de s'entraider et d'apprendre.
+        
+        En outre, Arduino est bon marché et dispose d'une vaste gamme de modules et de capteurs qui permettent de réaliser des projets de toute sorte, du plus simple au plus complexe.
+    </span>
+
+    <h3 class="article-subtitle">En résumé</h3>
+    <span class="article-desc">
+        Arduino est une plateforme idéale pour ceux qui souhaitent se lancer dans la création de projets électroniques et interactifs. Grâce à sa simplicité, son côté open-source et sa communauté active, il est accessible à tous, que vous soyez débutant ou expert.
+    </span> -->
+
+    <img class="article-banner" src="img/arduino.png" alt="Arduino banner"> <h1 class="article-title">Qu'est-ce qu'Arduino ?</h1> <span class="article-desc"> Arduino est une plateforme idéale pour réaliser des prototypes électroniques de manière rapide et simple. </span> <h3 class="article-subtitle">D'où vient Arduino ?</h3> <span class="article-desc"> Arduino est un projet open-source lancé en 2005 par une équipe de créateurs, ingénieurs et designers. Le nom "Arduino" provient d'un bar situé à Ivrea, en Italie, où les fondateurs se réunissaient régulièrement. Ce lieu, qui était un point de rencontre pour les innovateurs de l'époque, a inspiré le nom de cette plateforme. Depuis sa création, Arduino a radicalement transformé le monde de l'électronique en rendant la création de projets interactifs plus accessible à tous. </span> <h3 class="article-subtitle">Comment fonctionne Arduino ?</h3> <span class="article-desc"> Arduino est une carte électronique programmable qui peut être utilisée pour une multitude de projets, allant de la robotique aux objets connectés, en passant par la domotique et bien d’autres applications. Pour programmer la carte, on utilise le langage de programmation Arduino, une version simplifiée du C++, spécialement conçue pour rendre la programmation accessible même aux débutants. <br><br> Par exemple, voici un code simple qui fait clignoter une LED connectée à la carte Arduino : </span> <img src="img/code-arduino.png" alt="Exemple de code Arduino" class="article-banner"> <span class="article-desc"> Comme vous pouvez le voir dans l'exemple ci-dessus, il suffit d'écrire quelques lignes de code dans l'IDE Arduino (l'environnement de développement intégré) pour définir le comportement de la carte. Dans ce cas, la LED clignote en alternant entre une seconde allumée et une seconde éteinte. <br><br> Et voici le schéma de câblage pour ce projet : </span> <img src="img/arduino-cablage.png" alt="Schéma de câblage Arduino" class="article-banner"> <h3 class="article-subtitle">Pourquoi Arduino est-il si populaire ?</h3> <span class="article-desc"> Ce qui rend Arduino particulièrement attractif, c'est sa simplicité d'utilisation et son accessibilité. Il permet de créer des prototypes rapidement, même sans connaissances approfondies en électronique. Grâce à sa communauté active, des milliers de projets sont partagés chaque jour, permettant aux débutants comme aux experts de s'entraider et d'explorer de nouvelles idées. <br><br> De plus, Arduino est une plateforme économique, avec une large gamme de cartes, capteurs et modules disponibles pour répondre à tous types de projets, des plus simples aux plus ambitieux. </span> <h3 class="article-subtitle">Les avantages d'Arduino en quelques mots</h3> <span class="article-desc"> En résumé, Arduino est un excellent point de départ pour ceux qui souhaitent se lancer dans la conception de projets électroniques. Sa simplicité, son caractère open-source et l'engagement de sa communauté permettent à chacun, du novice au professionnel, de développer des projets interactifs à la fois créatifs et fonctionnels. </span>
+
+    <div class="bottom-spacer"></div>
+
+
+    <div class="footer", style="position: fixed; bottom: 0;">
+        <span class="text">© 2024 - Erwan_srt</span>
+        <span class="authors">
+            Icon crée par 
+            <a href="https://www.flaticon.com/authors/dave-gandy">Dave Gandy</a>, 
+            <a href="https://www.flaticon.com/authors/iconixar">Iconixar</a>,
+            <a href="https://www.flaticon.com/authors/freepik">Freepik</a>.
+        </span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
