@@ -1,0 +1,41 @@
+
+<div id="markdown-content"></div>
+
+<script src="marked.min.js"></script>
+<script>
+
+fetch('test.md')
+    .then(response => response.text())
+    .then(markdown => {
+        const htmlContent = marked.parse(markdown);
+        document.getElementById('markdown-content').innerHTML = htmlContent;
+})
+.catch(error => console.error('Erreur lors du chargement du fichier Markdown:', error));
+</script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+    body{
+        background-color: #03001C;
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+
+    pre{
+        background-color: darkslategray;
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 4px;
+    }
+</style>
+
+<div class="footer" style="position: absolute;">
+    <span class="text">© 2024 - Erwan_srt</span>
+    <span class="authors">
+        Icon crée par 
+        <a href="https://www.flaticon.com/authors/dave-gandy">Dave Gandy</a>, 
+        <a href="https://www.flaticon.com/authors/iconixar">Iconixar</a>,
+        <a href="https://www.flaticon.com/authors/freepik">Freepik</a>.
+    </span>
+</div>
